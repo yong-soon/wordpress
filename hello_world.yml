@@ -1,7 +1,5 @@
 - name: Hello World Sample
   hosts: all
   tasks:
-    - name: Hello Message
-      debug:
-        msg: "Hello WordPress!"
-
+    - name: Get Docker Version
+      command: docker version
